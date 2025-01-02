@@ -1,7 +1,3 @@
-Here's a template for your README file, which you can customize further based on your specific details:
-
----
-
 # Sales Performance Analysis Project
 
 ## Overview
