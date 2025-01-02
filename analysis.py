@@ -5,7 +5,7 @@ import random
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-FAKE = Faker() # Initialize Faker
+FAKE = Faker() # Initialize Faker 
 
 random.seed(42)   # Set random seed for reproducibility
 np.random.seed(42)
@@ -56,7 +56,7 @@ TopRegion = sales_data.groupby('Region')['Total_Sales'].sum().sort_values(ascend
 TopProducts = sales_data.groupby('Product')['Total_Sales'].sum().sort_values(ascending=False)
 Topsalesperson = sales_data.groupby('Salesperson')['Total_Sales'].sum().sort_values(ascending=False)
 
-# Save results to CSV
+# Save results to CSV file
 TopRegion.to_csv("top_regions.csv", header=['Total_Sales'])
 TopProducts.to_csv("top_products.csv", header=['Total_Sales'])
 Topsalesperson.to_csv("top_salespeople.csv", header=['Total_Sales'])
