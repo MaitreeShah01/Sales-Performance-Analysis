@@ -68,8 +68,7 @@ This project analyzes sales data using Python for data preparation and Tableau f
 
 ## Tableau Dashboard Preview
 
-[Sales Performance Analysis Dashboard](<img width="1470" alt="Screenshot 2025-01-02 at 9 10 45 AM" src="https://github.com/user-attachments/assets/54bf19b2-61bd-4c8a-8a4a-37184f694e05" />
-)
+[Sales Performance Analysis Dashboard](https://public.tableau.com/app/profile/maitree.shah/viz/CombinelineandbarchartwithareagraphSalesanalysis/Dashboard2)
 
 This dashboard includes:
 1. Cumulative sales trends (line graph).
