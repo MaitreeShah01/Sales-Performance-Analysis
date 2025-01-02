@@ -124,7 +124,7 @@ This dashboard includes:
 1. Clone this repository:
    ```bash
    git clone <repository-link>
-   cd interactive-sales-dashboard
+   cd <repository>
    ```
 2. Install required Python libraries:
    ```bash
@@ -132,7 +132,7 @@ This dashboard includes:
    ```
 3. Run the script to generate sales data:
    ```bash
-   python generate_sales_data.py
+   python analysis.py
    ```
 4. This creates a `sales_data.csv` file in the project directory.
 
